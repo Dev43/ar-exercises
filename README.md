@@ -43,7 +43,7 @@ You can work with the models with irb by running
     irb -r './setup.rb'
 
 ## Exercises
-
+<!--
 ### Exercise 1: Create 3 stores
 
 1. Use Active Record's `create` class method multiple times to create 3 stores in the database:
@@ -51,20 +51,20 @@ You can work with the models with irb by running
   * Richmond (annual_revenue of 1260000 carries women's apparel only)
   * Gastown (annual_revenue of 190000 carries men's apparel only)
 2. Output (`puts`) the number of the stores using ActiveRecord's `count` method, to ensure that there are three stores in the database.
-
-### Exercise 2: Update the first store
+ -->
+<!-- ### Exercise 2: Update the first store
 
 1. Load the first store (with `id = 1`) from the database and assign it to an instance variable `@store1`.
 2. Load the second store from the database and assign it to `@store2`.
 3. Update the first store (`@store1`) instance in the database. (Change its name or something.)
-
-### Exercise 3: Delete the third store
+ -->
+<!-- ### Exercise 3: Delete the third store
 
 1. Load the third store (into `@store3`) as you did the other two before.
 2. Using Active Record's `destroy` method, delete the store from the database.
 3. Verify that the store has been deleted by again outputting (`puts`ing) the `count` (as you did in Exercise 1.)
-
-### Exercise 4: Loading a subset of stores
+ -->
+<!-- ### Exercise 4: Loading a subset of stores
 
 1. Borrowing and modifying the code from Exercise one, create 3 more stores:
   * Surrey (annual_revenue of 224000, carries women's apparel only)
@@ -73,7 +73,7 @@ You can work with the models with irb by running
 2. Using the `where` class method from Active Record, fetch (a collection of) only those stores that carry men's apparel. Assign the results to a variable `@mens_stores`.
 3. Loop through each of these stores and output their name and annual revenue on each line.
 4. Do another fetch but this time load stores that carry women's apparel and are generating less than $1M in annual revenue.
-
+ -->
 ### Exercise 5: Calculations
 
 1. Output the total revenue for the entire company (all stores), using Active Record's `.sum` calculation method.
