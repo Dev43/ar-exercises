@@ -12,3 +12,4 @@ puts Store.find(1)
 puts @total_revenue = Store.sum("annual_revenue")
 puts @average_revenue = Store.average("annual_revenue")
 
+puts Store.where("annual_revenue > 1000000").count
